@@ -68,7 +68,7 @@ The formal measure of how concentrated into relatively few documents are the occ
 Suppose we have a collection of $N$ documents. Define $f_{ij}$ to be the frequency (number of occurrences) of term (word) $i$ in document $j$. 
 Then, define the term frequency
 $TF_{ij}$ to be:
-![alt text](images/image.png)
+![alt text](images/first.png)
 
 That is, the term frequency of term $i$ in document $j$ is $f_{ij}$ normalized by dividing it by the maximum number of occurrences of any term (perhaps excluding stop words) in the same document. Thus, the most frequent term in document $j$ gets a TF of 1, and other terms get fractions as their term frequency for this document.
 
